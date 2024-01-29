@@ -6,7 +6,7 @@ A VR art gallery template that uses Jekyll to generate the gallery for easy host
 
 Example here
 
-https://agento3.github.io/a-frame-art-gallery/
+https://iamjedi888.github.io/a-frame-art-gallery/
 
 ## Gallery Overview
 
