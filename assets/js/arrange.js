@@ -1,14 +1,15 @@
-
 AFRAME.registerComponent('arrange', {
     init: function () {
-        let el = this.el
-        let doors = el.querySelectorAll(".link")
-        let xSpacing = 5
-        for (i = 0; i < doors.length; i++) {
-            doors[i].setAttribute('position', 
-                                  { x: -5 + i * xSpacing, 
-                                    y: 1.5, 
-                                    z: -5 })
-        }
+        const el = this.el;
+        const doors = Array.from(el.querySelectorAll('.link'));
+        const xSpacing = 5;
+
+        doors.forEach((door, index) => {
+            door.setAttribute('position', {
+                x: -5 + index * xSpacing,
+                y: 1.5,
+                z: -5
+            });
+        });
     }
 });
