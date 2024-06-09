@@ -1,5 +1,12 @@
-_site
+# Syntax: .gitignore
+
+# Ignore generated files and directories
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+
+# Ignore the vendor directory
+vendor/
+
+# Ignore the _site directory (output of Jekyll)
+_site/
